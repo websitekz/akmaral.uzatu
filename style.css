@@ -10,11 +10,12 @@ body {
   color: #3c2f2a;
   min-height: 100vh;
   overflow-x: hidden;
-  background-image: url('https://kartinki.pics/pics/uploads/posts/2022-08/1661465272_2-kartinkin-net-p-zadnii-fon-na-svadbu-krasivo-2.jpg');
+  background-image: url('https://rus.baq.kz/storage/userfiles/photos/140/2025/08/11/V3Q1Kf931FH7cM0IL8NSdAOtN5qoBOgckH1trMF9.jpg');
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   background-blend-mode: overlay;
-  background-color: rgba(248, 244, 240, 0.763);
+  background-color: rgba(248, 244, 240, 0.087);
   position: relative;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -74,7 +75,7 @@ body::before {
   font-family: 'Parisienne', cursive;
   font-family: 'Cormorant Garamond', serif;
   font-size: 4.5rem;
-  color: #b4944a;
+  color: #ffffff;
   margin: 30px 0 15px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   letter-spacing: 3px;
@@ -82,7 +83,7 @@ body::before {
 
 .subtitle {
   font-size: 1.3rem;
-  color: #7a6350;
+  color: #fefefe;
   letter-spacing: 5px;
   text-transform: uppercase;
   font-weight: 300;
@@ -187,7 +188,7 @@ body::before {
 .section-title {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: #5d4738;
+  color: #ffffff;
   text-align: center;
   margin-bottom: 40px;
   position: relative;
@@ -341,7 +342,7 @@ body::before {
 }
 
 .countdown-item {
-  background: rgba(255, 251, 245, 0.153);
+  background: rgb(255, 255, 255);
   border: 0.4px solid rgba(180, 148, 74, 0.105);
   padding: 25px 20px;
   min-width: 10px;
@@ -561,7 +562,7 @@ footer {
   text-align: center;
   padding: 60px 0 40px;
   font-size: 1.1rem;
-  color: #7a6350;
+  color: #ffffff;
   position: relative;
 }
 
@@ -663,7 +664,7 @@ footer {
 
 @media (max-width: 480px) {
   .header { padding: 40px 0 20px; }
-  .invite-title { font-size: 2.3rem; margin: 20px 0 10px; }
+  .invite-title { font-size: 4.3rem; margin: 20px 0 10px; }
   .subtitle { font-size: 0.9rem; letter-spacing: 2px; }
   .subtitle::before, .subtitle::after { font-size: 1rem; }
   .subtitle::before { left: -20px; }
