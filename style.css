@@ -20,6 +20,31 @@
     font-family: 'Cormorant Garamond', serif;
   }
 
+  /* Фиксированный фон для всех устройств (в т.ч. iOS / Android) */
+.bg-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('https://rus.baq.kz/storage/userfiles/photos/140/2025/08/11/V3Q1Kf931FH7cM0IL8NSdAOtN5qoBOgckH1trMF9.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  z-index: -3;
+}
+
+/* Бумажная текстура поверх фона */
+.bg-fixed::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+  opacity: 0.2;
+}
+
 
 
   body::before {
